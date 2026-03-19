@@ -7,7 +7,7 @@ import re
 
 class DBConnect:
     def __init__(self):
-        self.host = "localhost"  
+        self.host = "127.0.0.1"  
         self.user = "root"  
         self.password = ""  
         self.database = "bms"  
@@ -29,11 +29,11 @@ class DBConnect:
 def welcome_msg_print():
     print("*********************************************************")
     print("*                                                       *")
-    print("*   ╔═══════════════════════════════════════════════╗   *")
-    print("*   ║                                               ║   *")
-    print("*   ║      Welcome to the Fiction Fusion System !   ║   *")
-    print("*   ║                                               ║   *")
-    print("*   ╚═══════════════════════════════════════════════╝   *")
+    print("*   +-----------------------------------------------+   *")
+    print("*   |                                               |   *")
+    print("*   |      Welcome to the Fiction Fusion System !   |   *")
+    print("*   |                                               |   *")
+    print("*   +-----------------------------------------------+   *")
     print("*                                                       *")
     print("*********************************************************")
     print()
